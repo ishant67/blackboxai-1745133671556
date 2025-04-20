@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sport Web Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-['Roboto'] text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-blue-600">SportZone</h1>
+      <nav>
+        <ul class="flex space-x-6 text-gray-700">
+          <li><a href="#" class="hover:text-blue-600 transition">Home</a></li>
+          <li><a href="#sports" class="hover:text-blue-600 transition">Sports</a></li>
+          <li><a href="#news" class="hover:text-blue-600 transition">News</a></li>
+          <li><a href="#contact" class="hover:text-blue-600 transition">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-20 px-4 text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Welcome to SportZone</h2>
+    <p class="max-w-2xl mx-auto text-lg md:text-xl mb-8">Your ultimate destination for all things sports. Stay updated, stay active, and enjoy the game!</p>
+    <a href="#sports" class="inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">Explore Sports</a>
+  </section>
+
+  <!-- Sports Categories -->
+  <section id="sports" class="container mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold text-center mb-12">Popular Sports</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition">
+        <i class="fas fa-football-ball text-5xl text-blue-600 mb-4"></i>
+        <h4 class="text-xl font-semibold mb-2">Football</h4>
+        <p>Experience the thrill of the world's most popular sport with live updates and news.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition">
+        <i class="fas fa-basketball-ball text-5xl text-orange-500 mb-4"></i>
+        <h4 class="text-xl font-semibold mb-2">Basketball</h4>
+        <p>Follow your favorite teams and players in fast-paced basketball action.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition">
+        <i class="fas fa-baseball-ball text-5xl text-red-600 mb-4"></i>
+        <h4 class="text-xl font-semibold mb-2">Baseball</h4>
+        <p>Stay updated with scores, schedules, and news from the baseball world.</p>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6 text-center hover:shadow-lg transition">
+        <i class="fas fa-running text-5xl text-green-600 mb-4"></i>
+        <h4 class="text-xl font-semibold mb-2">Athletics</h4>
+        <p>Get inspired by the latest in track and field events and athlete stories.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="bg-white py-16 px-4">
+    <div class="container mx-auto max-w-4xl">
+      <h3 class="text-3xl font-bold text-center mb-12">Latest Sports News</h3>
+      <article class="mb-8">
+        <h4 class="text-xl font-semibold mb-2">Championship Finals Set for Next Month</h4>
+        <p>The top teams have qualified for the championship finals, promising an exciting showdown.</p>
+      </article>
+      <article class="mb-8">
+        <h4 class="text-xl font-semibold mb-2">New Records Broken in Athletics Meet</h4>
+        <p>Athletes set new records in various track and field events at the recent meet.</p>
+      </article>
+      <article>
+        <h4 class="text-xl font-semibold mb-2">Basketball Season Highlights</h4>
+        <p>Catch up on the most thrilling moments from this season's basketball games.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-800 text-gray-300 py-8 px-4">
+    <div class="container mx-auto text-center">
+      <div class="mb-4">
+        <a href="#" class="mx-2 hover:text-white transition"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="#" class="mx-2 hover:text-white transition"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" class="mx-2 hover:text-white transition"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#" class="mx-2 hover:text-white transition"><i class="fab fa-linkedin fa-lg"></i></a>
+      </div>
+      <p>&copy; 2024 SportZone. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
